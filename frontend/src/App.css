@@ -10,7 +10,7 @@ body {
 .background {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33, 0.8) 100%);
   /* Vertical center */
   display: table-cell;
   vertical-align: middle;
@@ -22,13 +22,13 @@ body {
   padding: 0% 25% 0% 25%;
 }
 
-.form-title { 
-  font-size: 42px; 
-  font-family: 'Avenir'; 
-  font-weight: 800; 
-  letter-spacing: 0.5px; 
-  color: #e8e8e8; 
-  padding-bottom: 12px; 
+.form-title {
+  font-size: 42px;
+  font-family: 'Avenir';
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #e8e8e8;
+  padding-bottom: 12px;
 }
 
 .form-subtitle {
@@ -45,6 +45,7 @@ body {
   width: 100%;
   padding-bottom: 12px;
 }
+
 .auth-label {
   position: absolute;
   top: 8px;
@@ -54,6 +55,7 @@ body {
   font-family: Avenir;
   width: 100px;
 }
+
 .auth-input {
   background-color: #3e404b;
   color: white;
@@ -65,6 +67,7 @@ body {
   width: calc(100% - 18px - 18px);
   margin-bottom: 12px;
 }
+
 .auth-button {
   width: 100%;
   height: 53px;
@@ -79,12 +82,15 @@ body {
   -webkit-transition: all .44s ease;
   -moz-transition: all .44s ease;
 }
-.auth-button:hover { filter: brightness(145%); }
+
+.auth-button:hover {
+  filter: brightness(145%);
+}
 
 .chat-wrapper {
-  height: 80vh; 
+  height: 80vh;
   width: 80%;
-  margin-left: 10%; 
-  color: white; 
+  margin-left: 10%;
+  color: white;
   background: rgb(43, 47, 60);
 }
